@@ -1,13 +1,13 @@
 # Description du projet
 Ce projet a été realisé dans le cadre d'une implémentation de l'architecture microservices.
 Il est composé de 07 microservices dont une API Gateway (Passerelle API) :
-- employeserviceapi : microservice 1 chargé de la gestion des employés et leur contrat
-- congeserviceapi : microservice 2 chargé de la gestion des congés des employés
-- pointageserviceapi : microservice 3 chargé de gérer le pointage des employés
-- pretserviceapi : microservice 4 chargé de gérer les prêts des employés
-- missionserviceapi : microservice 5 chargé de gérer les missions des employés
-- salaireserviceapi : microservice 6 chargé de gérer les salaires des employés
-- apigateway : point entrée unique du système, fait la liaison entre tous les autres microservices
+- employeserviceapi : microservice 1 chargé de la gestion des employés et leur contrat (https://github.com/IbrahimGUIRE/employeserviceapi)
+- congeserviceapi : microservice 2 chargé de la gestion des congés des employés (https://github.com/IbrahimGUIRE/congeserviceapi)
+- pointageserviceapi : microservice 3 chargé de gérer le pointage des employés (https://github.com/IbrahimGUIRE/pointageserviceapi)
+- pretserviceapi : microservice 4 chargé de gérer les prêts des employés (https://github.com/IbrahimGUIRE/pretserviceapi)
+- missionserviceapi : microservice 5 chargé de gérer les missions des employés (https://github.com/IbrahimGUIRE/missionserviceapi)
+- salaireserviceapi : microservice 6 chargé de gérer les salaires des employés (https://github.com/IbrahimGUIRE/salaireserviceapi)
+- apigateway : point entrée unique du système, fait la liaison entre tous les autres microservices (https://github.com/IbrahimGUIRE/apigateway)
 # Condition de test en local
 Chaque microservice est exécuté sur un serveur différent. Pour tester en local, 
 après avoir cloné et installé le dépôt git en local il faut, voici la démarche à suivre :
