@@ -8,6 +8,11 @@ Il est composé de 07 microservices dont une API Gateway (Passerelle API) :
 - missionserviceapi : microservice 5 chargé de gérer les missions des employés
 - salaireserviceapi : microservice 6 chargé de gérer les salaires des employés
 - apigateway : point entrée unique du système, fait la liaison entre tous les autres microservices
+# Condition de test en local
+Chaque microservice est exécuté sur un serveur différent. Pour tester en local, 
+après avoir cloné et installé le dépôt git en local il faut, voici la démarche à suivre :
+- lancer le microservice 1 (employeserviceapi) sur le port 8100 : php -S 127.0.0.1:8100 -t public
+
 
 # Lumen PHP Framework
 
