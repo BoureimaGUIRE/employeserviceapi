@@ -11,7 +11,7 @@ Il est composé de 07 microservices dont une API Gateway (Passerelle API) :
 # Condition de test en local
 Chaque microservice est exécuté sur un serveur différent. Pour tester en local, 
 après avoir cloné et installé le dépôt git en local, voici la démarche à suivre :
-- lancer le microservice 1 (employeserviceapi) sur le port 8100 : php -S 127.0.0.1:8100 -t public
+- lancer ce microservice (employeserviceapi) sur le port 8100 : php -S 127.0.0.1:8100 -t public
 
 
 # Lumen PHP Framework
